@@ -1,0 +1,30 @@
+
+/*Estos estilos solo se aplica para una pantalla 
+mayor 480px*/
+@media screen and (min-width: 480px){
+    header{
+        border-bottom: solid 3px;
+    }
+    .bt_menu{
+        display: none;
+    }
+    .img_logo img{
+        display: block;
+        margin: auto;
+    }
+}
+/*Solo se ejecuta cuando la pantalla en 
+menor a 480px*/
+@media screen and (max-width: 480px){
+    header{
+        width: 100%;
+        margin-top: 2%;
+        border-bottom: none;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .menu{
+        display: none;
+    }
+}

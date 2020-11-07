@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.cont_general{
+    display: block;
+    margin: auto;
+    width: 90%;
+}
+header{
+    /*background-color: salmon;*/
+
+
+}
+/*estilos del contenedor del logo*/
+.img_logo{
+    display: table;
+}
+.img_logo img{
+    width: 30%;
+}
+
+

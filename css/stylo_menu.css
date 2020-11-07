@@ -1,0 +1,32 @@
+.menu{
+    border-top: solid 2px #e1e1e1;
+}
+.menu ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+.menu ul li{
+    padding: 1.5em;
+    line-height: 20px;
+}
+.menu ul li a{
+    text-decoration: none;
+    color: #05050e;
+}
+
+li:hover{
+    border-left: solid 2px #e1e1e1;
+    border-right: solid 2px #e1e1e1;
+}
+
+.bt_menu{
+    background-color: #05050e;
+    width: 40px;
+    height: 40px;
+}
+.bt_menu a img{
+    width: 40px;
+    height: 40px;
+    padding: 5px;
+}
