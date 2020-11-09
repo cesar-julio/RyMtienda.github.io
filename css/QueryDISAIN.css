@@ -27,4 +27,7 @@ menor a 480px*/
     .menu{
         display: none;
     }
+    .filtrado{
+        width: 100%;
+    }
 }
