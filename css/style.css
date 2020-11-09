@@ -21,4 +21,23 @@ header{
     width: 30%;
 }
 
+/*estilos de los elementos del filtro*/
+.filtrado{
+    margin-top: 00.5em;
+    width: 25%;
+    background-color: #f1f1f1;
+    padding-bottom: 0.5em;
+}
+.filtrado h3{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 0.5em;
+}
+.filtrado li{
+    list-style: none;
+    margin-left: 2.5em;
+    margin-top: 0.4em;
+    font-size: x-large;
+}
 
