@@ -2,45 +2,97 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <link rel="shortcut icon" href="img/logoTIENDA.png"/>
+    <meta name="viewport" content="target-densitydpi=device-dpi, initial-scale=1.0, user-scalable=no" />
+    <!-- ======== boxicons =======-->
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+    <!-- ======== css =======-->
+    <link rel="stylesheet" href="assets/css/styles.css">
     <title>R&M</title>
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/QueryDISAIN.css">
-    <link rel="stylesheet" href="css/stylo_menu.css">
+
 </head>
 <body>
-    <div class="cont_general">
-        <header>
-            <div class="img_logo">
-                <img src="img/logoTIENDArecREC.png" alt="logo">
+    <!--====== HEADER =======-->
+    <header class="l-header">
+        <nav class="nav bd-grid">
+            <div>
+                <a href="#" class="nav__logo">R&M</a>
             </div>
-            <div class="bt_menu">
-                <a href="#"><img src="img/MENUweb.svg"/></a>
-            </div>
-            <nav class="menu">
-                <ul>
-                    <li><a href="#">Inicio</a></li>
-                    <li><a href="#">Productos</a></li>
-                    <li><a href="#">Galeria</a></li>
-                    <li><a href="#">Contactanos</a></li>
-                </ul>
-            </nav>
-        </header>
-        <section>
-            <div class="filtrado">
-                <h3>CATEGORÍAS DEL PRODUCTO</h3>
-                <ul>
-                    <li>Para niños</li>
-                    <li>Para hombres</li>
-                    <li>Para mujeres</li>
-                    <li>Para niñas</li>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#inicio" class="nav__link ">Inico</a></li>
+                    <li class="nav__item"><a href="#galeria" class="nav__link">Galería</a></li>
+                    <li class="nav__item"><a href="#tienda" class="nav__link">Tienda</a></li>
+                    <li class="nav__item"><a href="#contactanos" class="nav__link">Contáctanos</a></li>
                 </ul>
             </div>
-            <div class="galeria">
+
+            <div>
+                <i class='bx bxs-cart-alt nav__cart'></i>
+                <i class='bx bx-menu nav__toggle' id="nav-toggle"></i>
+            </div>
+        </nav>
+    </header>
+
+    <main class="1-main">
+        <!--======== HOME =======-->
+        <section class="home" id="home">
+            <div class="home__container bd-grid">
+                <div class="home__data">
+                    <h1 class="home__title">NEW<br><span>ARRIBALS</span></h1>
+                    <a href="#featured" class="botton">GO SHOPPING</a>
+                </div>
+
+                <img src="https://cdn.pixabay.com/photo/2017/09/17/15/42/model-2758787_960_720.jpg" alt="baner" class="home__img">
 
             </div>
         </section>
-    </div>
+        <!--========== COLLECTION========== -->
+        <section class="collection section">
+            <div class="collection__container bd-grid">
+                <div class="collection__box">
+                    <img src="https://ae01.alicdn.com/kf/HTB1QwnMuVGWBuNjy0Fbq6z4sXXau/Vestido-de-fiesta-para-adolescentes-estampado-de-flores-para-verano-graduaci-n-talla-S-XXL.jpg_q50.jpg" alt="Bestidos" class="collection__img">
+
+                    <div class="collection__data">
+                        <h2 class="collection__title"><span class="collection__sutitle">Niños</span><br>Short</h2>
+                        <a href="#" class="collection__view">View collection</a>
+                    </div>
+                </div>
+
+                <div class="collection__box">
+                    <img src="https://ae01.alicdn.com/kf/HTB1QwnMuVGWBuNjy0Fbq6z4sXXau/Vestido-de-fiesta-para-adolescentes-estampado-de-flores-para-verano-graduaci-n-talla-S-XXL.jpg_q50.jpg" alt="Bestidos" class="collection__img">
+
+                    <div class="collection__data">
+                        <h2 class="collection__title"><span class="collection__sutitle">Hombre</span><br>Polos</h2>
+                        <a href="#" class="collection__view">View collection</a>
+                    </div>
+                </div>
+
+                <div class="collection__box">
+                    <img src="https://ae01.alicdn.com/kf/HTB1QwnMuVGWBuNjy0Fbq6z4sXXau/Vestido-de-fiesta-para-adolescentes-estampado-de-flores-para-verano-graduaci-n-talla-S-XXL.jpg_q50.jpg" alt="Bestidos" class="collection__img">
+
+                    <div class="collection__data">
+                        <h2 class="collection__title"><span class="collection__sutitle">Mujer</span><br>Vestidos</h2>
+                        <a href="#" class="collection__view">View collection</a>
+                    </div>
+                </div>
+
+                <div class="collection__box">
+                    <img src="https://ae01.alicdn.com/kf/HTB1QwnMuVGWBuNjy0Fbq6z4sXXau/Vestido-de-fiesta-para-adolescentes-estampado-de-flores-para-verano-graduaci-n-talla-S-XXL.jpg_q50.jpg" alt="Bestidos" class="collection__img">
+
+                    <div class="collection__data">
+                        <h2 class="collection__title"><span class="collection__sutitle">Detalles</span><br>Navideños</h2>
+                        <a href="#" class="collection__view">View collection</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--========= FEATURED PRODUCTS ===========-->
+    </main>
+
+
+    <!--====== MAIN JS =======-->
+    <script src="assets/js/main.js"></script>
 </body>
 </html>
